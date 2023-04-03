@@ -1,0 +1,221 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+ img{
+    height: 150px;
+    width: 250px;
+}
+/* menu section */
+.menu-section{
+  background-color: rgb(241, 238, 238);
+  display: flex;
+  padding: .7rem;
+}
+.brand{
+    width: 30%;
+}
+.brand h1{
+    text-align: center;
+    margin-top: .3rem;
+    text-transform: capitalize;
+    font-weight: bold;
+    letter-spacing: 4px;
+}
+.menubar{
+    width: 70%;
+}
+.menubar ul{
+    display: flex;
+    margin: auto;
+    margin-left: 15rem;
+    
+}
+.menubar ul li{
+    line-height: 50px;
+    list-style: none;
+    padding: 0px 40px;
+    border-radius: 5px;
+    transition: .7s;
+      
+}
+.menubar ul li:hover{
+    background-color: rgb(216, 216, 220);
+}
+.menubar ul li a{
+   text-transform: capitalize;
+   font-weight: bold;
+   font-size: 20px;
+   cursor: pointer;
+}
+
+/* second-section start here */
+.more-customs{
+    display: flex;
+}
+.imgs img{
+    height: 150px;
+    width: 250px;
+}
+.second-section{
+    display: flex;
+    margin-top: 5rem;
+    margin-left: 7%;
+   
+}
+.watch{
+    width: 33%;
+    height: auto;
+    text-align: center;
+    margin-top: 2rem;
+    box-shadow: 4px 4px 6px rgb(243, 239, 239);
+}
+.imgs{
+    width: 33%;
+}
+.watch h2{
+  font-weight: bold;
+  text-transform: capitalize;
+  font-size: 25px;
+  letter-spacing: 1px;
+  color: blue;
+}
+.strong-price{
+    margin-top: 1rem;
+    font-weight: bold;
+    margin-top: .5rem;
+    display: block;
+    color: red;
+    font-size: 20px;
+    margin-bottom: .5rem;
+}
+.btn{
+    border: none;
+    font-weight: bold;
+    padding: .5rem .5rem;
+    border-radius: 5px;
+    margin-top: 1rem;
+    background-color: rgb(91, 91, 91);  
+}
+.btn a{
+    color: white;
+}
+
+/* card section */
+.card-section{
+    margin-top: 5rem;
+    margin-left: 5rem;
+    display: flex;
+    
+   
+}
+.card{
+    margin: 0px 25px;
+    width: 20%;
+    box-shadow: 4px 4px 6px rgb(183, 178, 178);
+}
+.card h2{
+    font-weight: bold;
+    font-size: 22px;
+    color: rgb(23, 23, 23);
+    margin-top: .5rem;
+    margin: 3px 7px;
+}
+.card p{
+    text-transform: capitalize;
+    color: rgb(59, 58, 58);
+    text-align: justify;
+    padding: .5rem;
+}
+.card h3{
+    text-transform: capitalize;
+    color: rgb(4, 4, 4);
+    margin: 3px 7px;
+    
+}
+.btns{
+    border: none;
+    margin-top: .5rem;
+    margin-bottom: .7rem;
+    margin: 10px 7px;
+    background-color: lime;
+    padding: .5rem;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.btns a{
+    color: rgb(5, 5, 5);
+}
+
+
+/* last main section */
+.last-section{
+    margin: auto;
+    margin-top: 5rem;
+   
+}
+.last-main-div{
+  height: 300px;
+  width: 700px;
+  margin: auto;
+  text-align: center;
+  border-radius: 10px;
+  background-color: rgb(184, 184, 180);
+  box-shadow: 6px 6px 6px 6px rgb(238, 231, 231);
+  
+}
+.text h2{
+ text-transform: capitalize;
+ font-weight: bold;
+ margin-top: 1rem;
+ display: inline-block;
+ margin-left: 1rem;
+}
+.text p{
+ font-weight: bold;
+ text-transform: capitalize;
+ margin-top: .5rem;
+ color: red;
+}
+ label input{
+    border: none;
+    font-size: 16px;
+    margin: .5rem 0rem;
+    width: 15rem;
+    padding: .5rem;
+    border-radius: 10px;
+    margin-top: .7rem;
+}
+.login-btn{
+    margin-top: 1rem;
+    border: none;
+    padding: .5rem;
+    border-radius: 5px;
+    width: 5rem;
+    letter-spacing: 2px;
+    font-weight: bold;
+    background-color: rgb(33, 33, 33);
+    color: white;
+}
+.copyright{
+    margin-top: 5rem;
+    text-align: center;
+}
+.texts{
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 20px;
+    color: fuchsia;
+}
+
+
+
+
+
+
+.mt{
+    margin-bottom: 150px;
+}
